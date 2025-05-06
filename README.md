@@ -55,30 +55,19 @@ Visit the frontend at `http://localhost:3000` and the backend at `http://localho
 
 ## 🚀 Deployment
 Frontend (Vercel):
-
-Push frontend/ to a GitHub repository.
-
-Go to Vercel and import the project.
-
-Set environment variables if needed.
-
-Deploy the project.
+  Push frontend/ to a GitHub repository.
+  Go to Vercel and import the project.
+  Set environment variables if needed.
+  Deploy the project.
 
 Backend (Render):
-
-Push backend/ to a GitHub repository.
-
-Go to Render and create a new Web Service.
-
-Set the build and start commands:
-
-Build Command: npm install
-
-Start Command: node server.js
-
-Add environment variable MONGODB_URI with your MongoDB connection string.
-
-Deploy the service.
+  Push backend/ to a GitHub repository.
+  Go to Render and create a new Web Service.
+  Set the build and start commands:
+  Build Command: npm install
+  Start Command: node server.js
+  Add environment variable MONGODB_URI with your MongoDB connection string.
+  Deploy the service.
 
 
 
